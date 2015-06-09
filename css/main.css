@@ -1,0 +1,195 @@
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+.portfolio {
+	width: 960px;
+	padding: 0 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo {
+	background-image: url(../summit.jpeg);
+	background-clip: border-box;
+	background-size: cover;
+	text-align: center;
+	height: 27.5rem;
+	max-width: 100%;
+	/*27.5rem;*/
+}
+
+.logo h1 {
+	margin: 0 auto;
+	text-transform: uppercase;
+	color: #18150e;
+	padding: 5rem .7rem .7rem;
+	border-radius: 10px;
+	font-size: 5.25rem;
+	font-family: 'Lato', 'Helvetica Neue', Arial, serif;
+	font-weight: 400;
+}
+
+.logo h2 {
+	margin: 4rem auto 0;
+	text-transform: uppercase;
+	color: #b6a8aa;
+	font-size: 1.5rem;
+	font-family: 'Lato', 'Helvetica Neue', Arial, serif;
+	font-weight: 300;
+}
+
+.logo h2 hr {
+	width: 4.5rem;
+	border: 1px solid #b6a8aa;
+	text-align: center;
+}
+
+.top-nav {
+	text-align: center;
+	padding: .5rem 0;
+	text-transform: uppercase;
+	letter-spacing: .125rem;
+	background-color: #000;
+	color: white;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.top-nav ul li,
+.portfolio ul li {
+	display: inline-block;
+}
+
+.top-nav ul {
+	margin: 0.3rem;
+}
+
+.top-nav ul li {
+	padding-bottom: 0.2rem;
+}
+
+.active {
+	border-bottom: 2px solid white;
+}
+
+.top-nav ul li:hover {
+	border-bottom: 2px solid #e0e0e0;
+}
+
+.top-nav ul .nav-li {
+	margin-right: 1.5rem;
+}
+
+.portfolio ul li {
+	width: 100%;
+	height: 16rem;
+	padding: 0.3rem;
+	margin: 0.4rem 0 0;
+	/*background-image: url(../dummy-image.jpg);*/
+	background-color: #adadad;
+	background-clip: content-box;
+	background-size: cover;
+}
+
+.portfolio ul li:hover {
+	opacity: 0.85;
+	cursor: pointer;
+}
+
+.portfolio ul .karma,
+.portfolio ul .nyt {
+	background-clip: content-box;
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.portfolio hr {
+	width: 4.5rem;
+	border: 1px solid #000;
+	margin-top: 0;
+}
+
+.portfolio ul .karma {
+	background-image: url(../Karma-Screenshot.png);
+}
+
+.portfolio ul .nyt {
+	background-image: url(../newyorktimeschallenge.png);
+	background-position: top center;
+}
+
+.portfolio {
+	clear: both;
+	margin: 3rem auto 0;
+}
+
+.portfolio .portfolio-label {
+	font-family: 'Lato', Arial, serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 6rem 0 1rem;
+}
+
+.portfolio div {
+	display: inline-block;
+	width: 33%;
+	height: 16rem;
+}
+
+.portfolio div p {
+	margin: 0;
+	font-family: 'Lato', 'Helvetica Neue', Arial, serif;
+}
+
+.social {
+	padding: 2em 0;
+	margin: 3rem 0 0;
+	color: #f4c22d;
+	background-color: #000;
+	text-align: center;
+}
+
+.icons li {
+	display: inline-block;
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+.social p {
+	margin: 0 0 1.5rem;
+	color: #fff;
+	font-family: 'Lato', 'Helvetica Neue', Arial, serif;
+	font-size: 1rem;
+}
+
+.social .twitter a {
+	text-decoration: none;
+	color: #55acee;
+}
+
+.social .facebook a {
+	text-decoration: none;
+	color: #55acee;
+}
+
+.social .instagram a {
+	text-decoration: none;
+	color: #55acee;
+}
+
+
+
